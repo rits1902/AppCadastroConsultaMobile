@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Desafio</string>
+    <string name="salvar">Salvar</string>
+    <string name="voltar">Voltar</string>
+    <string name="emissor_obrigatorio">O emissor é de preenchimento obrigatório!</string>
+    <string name="receptor_obrigatorio">O receptor é de preenchimento obrigatório!</string>
+    <string name="servico_obrigatorio">O servico é de preenchimento obrigatório!</string>
+    <string name="valor_total_obrigatorio">O valor total é de preenchimento obrigatório!</string>
+    <string name="valor_imposto_obrigatorio">O valor do imposto é de preenchimento obrigatório!</string>
+    <string name="registro_salvo_sucesso">Registro salvo com sucesso!</string>
+</resources>

@@ -1,0 +1,107 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        tools:context=".CadastrarActivity">
+
+        <TextView
+            android:id="@+id/textViewNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emissor:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editTextEmissor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/textViewReceptor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Receptor:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editTextReceptor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/textViewServico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Serviço:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editTextServico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/textViewValorTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valor total:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editTextValorTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewValorImposto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valor imposto:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editTextValorImposto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <CheckBox
+            android:id="@+id/checkBoxRegistroAtivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Registro Ativo" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonVoltar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="45dp"
+                android:layout_marginStart="44dp"
+                android:text="@string/voltar" />
+
+            <Button
+                android:id="@+id/buttonSalvar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/buttonVoltar"
+                android:layout_marginEnd="47dp"
+                android:text="@string/salvar" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
